@@ -30,6 +30,7 @@ def main():
     if argumentos.email != None:
         mail = checkMail(argumentos.email)
         sendEmail(mail,["./output/vivacristorey.pdf", "vivacristorey.pdf"])
-    else: print("Busque su PDF en la carpeta output")
+        print("Un correo ha sido enviado a la dirección suministrada")
+    else: print("Busque el PDF con su resultado en la carpeta output")
 if __name__=='__main__':
     main()
