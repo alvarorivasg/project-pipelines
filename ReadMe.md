@@ -6,4 +6,4 @@ Mi programa toma tres argumentos del usuario que lo ejecuta: un mes del año 201
 
 La utilidad de este programa, en efecto, se limita a sacar una sonrisilla a quien lo ejecute. No obstante, es tan solo el primero de los proyectos en los que usaré este formidable portal de datos. La información allí contenida puede servir para identificar y satisfacer las necesidades de los habitantes de mi ciudad. Es tarea del desarrollador y del experto en datos convertir estas minas de información en servicios de los que la ciudadanía pueda disfrutar.
 
-Aviso para desarrolladores en Python: no fui capaz de hacer funcionar la API del Ayuntamiento de Madrid con el módulo requests. En concreto, el contenido que devolvía tenía siempre extensión .ico, en lugar del formato json que establecí en el encabezamiento de mi petición. Recomiendo por tanto el uso de urllib.
+Aviso para desarrolladores en Python: no fui capaz de hacer funcionar la API del Ayuntamiento de Madrid con el módulo requests. En concreto, el contenido que devolvía la API tenía siempre extensión .ico, en lugar del formato json que establecí en el encabezamiento de mi petición. Recomiendo por tanto el uso de urllib.
