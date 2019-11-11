@@ -1,0 +1,9 @@
+Mi objetivo en este proyecto ha sido familiarizarme con los datos abiertos del Ayuntamiento de Madrid, disponibles en http://www.datos.madrid.es
+
+He tomado como base un archivo sobre accidentes de tráfico en los que intervinieron bicicletas acaecidos en el año 2018. He complementado estos datos con una llamada a la API del Ayuntamiento, a través de la cual obtuve los nombres de los centros de culto católicos cercanos a cada lugar donde se produjo un accidente.
+
+Mi programa toma tres argumentos del usuario que lo ejecuta: un mes del año 2018, un distrito de Madrid y una dirección de correo electrónico. Como resultado, envía un correo a dicha dirección, con un documento PDF adjunto que informa de todos los accidentes acaecidos en dicho mes y distrito. Cada uno de ellos se acompaña de un templo cercano al lugar de la caída o colisión, donde cualquiera de las personas implicadas en el accidente podrían haber parado a rezar, para así evitarse el disgusto :)
+
+La utilidad de este programa, en efecto, se limita a sacar una sonrisilla a quien lo ejecute. No obstante, es tan solo el primero de los proyectos en los que usaré este formidable portal de datos. La información allí contenida puede servir para identificar y satisfacer las necesidades de los habitantes de mi ciudad. Es tarea del desarrollador y del experto en datos convertir estas minas de información en servicios de los que la ciudadanía pueda disfrutar.
+
+Aviso para desarrolladores en Python: no fui capaz de hacer funcionar la API del Ayuntamiento de Madrid con el módulo requests. En concreto, el contenido que devolvía tenía siempre extensión .ico, en lugar del formato json que establecí en el encabezamiento de mi petición. Recomiendo por tanto el uso de urllib.
