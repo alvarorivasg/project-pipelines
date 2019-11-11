@@ -16,7 +16,7 @@ def checkMail(email):
             email=input('Please input a valid email:')
 def sendEmail (email,report):
     subject = "Descubre el poder de Cristo"
-    body = "Fuck Carmena, Dios proveerá"
+    body = "Dios proveerá"
     sender_email = "pipelinesrivas@gmail.com"
     receiver_email = email
     password = os.getenv("PASSWORD")
